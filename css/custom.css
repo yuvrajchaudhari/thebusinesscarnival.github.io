@@ -126,7 +126,7 @@ a:link {
   }
   .title{
       color: #ffffff;
-    font-family: 'Merriweather', serif;
+    /* font-family: 'Merriweather', serif; */
       font-size: 50px;
       white-space: nowrap;
   }
