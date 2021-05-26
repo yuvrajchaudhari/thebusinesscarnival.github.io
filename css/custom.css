@@ -102,7 +102,9 @@ a:link {
     50% { border-color: orange; }
   }
 
-
+  .momento-360-view .logo-anchor .logo {
+    display: none !important;
+}
   .pano-image{
       position: relative;
   }
