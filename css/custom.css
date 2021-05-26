@@ -37,7 +37,15 @@ a:link {
   .nav-link:hover{
       color: #53ba7f !important;
   }
-
+  .header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 8px 6px -6px rgb(0 0 0 / 20%);
+    z-index: 11;
+}
   
   .btn-grad {background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);}
   .btn-grad {
@@ -73,7 +81,7 @@ a:link {
   
   .typewriter{
     overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
+  
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     /* letter-spacing: .15em;  */
