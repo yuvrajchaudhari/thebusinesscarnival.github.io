@@ -242,3 +242,11 @@ a:link {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
 }
+
+/* Industry Association */
+.industry-association{
+  background-image:  url("../images/industry-association.png");
+}
+.industry-association p{
+  font-size: 25px;
+}
