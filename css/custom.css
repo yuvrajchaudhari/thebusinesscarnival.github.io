@@ -247,7 +247,7 @@ a:link {
     position: relative;
     background-image: url("../images/cta.jpg"); /* The image used */
     background-color: rgba(255,255,255,0.9); /* Used if the image is unavailable */
-    height: 392px; /* You must set a specified height */
+    height: 350px; /* You must set a specified height */
     background-position: center bottom; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
@@ -258,7 +258,7 @@ a:link {
   background-image:  url("../images/industry-association.png");
 }
 .industry-association p{
-  font-size: 25px;
+  font-size: 18px;
   padding-left: 12px;
 }
 
@@ -277,4 +277,21 @@ a:link {
     bottom: 0;
     border: 4px solid green;
     border-width: 0 0 0 4px;
+}
+
+/*------------ News Section--------- */
+.news-section{
+  position: relative;
+  padding: 45px 0px;
+}
+.news-section::before{
+    content: '';
+    background: url(../images/news-shape.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-position: right top;
+    background-size: 42%;
 }
