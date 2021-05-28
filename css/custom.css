@@ -139,6 +139,7 @@ video {
     font-family: 'Prata', serif;
       font-size: 50px;
       white-space: nowrap;
+      font-weight: 800;
   }
 
   .text-yellow {
@@ -374,6 +375,17 @@ footer a:hover{
   font-weight: 400;
 }
 hr{background-color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1024px) {
   .navbar-light .navbar-brand {
     margin-left: 10px;
@@ -411,7 +423,7 @@ hr{background-color: #fff;}
   }
 }
 @media (max-width:767px) {
-  
+  .d-none-mob{display: none;}
   .title {
         font-size: 26px;
   }
