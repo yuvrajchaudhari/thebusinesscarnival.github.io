@@ -364,9 +364,47 @@ color:#ffffff;
   font-weight: 400;
 }
 hr{background-color: #fff;}
-
-
+@media (max-width:1024px) {
+  .navbar-light .navbar-brand {
+    margin-left: 10px;
+}
+  .navbar-light .navbar-toggler {
+    margin-right: 10px;
+}
+.video-title {
+  font-family: 'Prata', serif;
+  font-size: 21px;
+  }
+  .section-pd {
+    padding: 32px 0px;
+}
+.about-content {
+  padding: 30px 0px;
+}
+.internal-title {
+  font-size: 26px;}
+  .about-content p {
+    font-size: 18px;
+}
+.why-business-title {
+  font-size: 26px;}
+  .why-business {
+    height: auto;}
+  .how-it-works p {
+    min-height: 241px;
+    font-size: 16px ;
+}
+}
+@media (max-width:991px) {
+  .title {
+    font-size: 33px;
+  }
+}
 @media (max-width:767px) {
+  
+  .title {
+        font-size: 26px;
+  }
   .why-business { height: auto;}
   .top-menu{display: none;}
   .about-content p {
@@ -378,12 +416,41 @@ hr{background-color: #fff;}
 .about-content {
   padding: 35px 0px;
 }
-
+.how-it-works .content {
+  font-size: 16px;
+}
+.how-it-works p {
+  min-height: auto;
+}
 .cta {
   height: auto;}
 
+  .how-it-works {
+    padding: 10px 0px;
+}
+.news-title {
+  font-size: 20px;}
+  .news-section p {
+    font-size: 16px;
+}
+footer {
+  padding: 35px 0px 15px;
+  margin-top: 30px;
+}
+.footer-title{
+  font-size: 25px;
+  }
+  .text-center-mob{
+    text-align: center;
+  }
 }
 @media (max-width:520px) {
+  .how-it-works p {
+    min-height: auto;
+    font-size: 16px;
+    font-weight: 400;
+}
+  
   .about-content {
     padding: 25px 0px;
 }
@@ -413,5 +480,11 @@ hr{background-color: #fff;}
 }
 .internal-title,.why-business-title {
   font-size: 25px;
+}
+.footer-title {
+  font-size: 23px;
+}
+  .footer-menu a {
+    font-size: 16px;
 }
 }
