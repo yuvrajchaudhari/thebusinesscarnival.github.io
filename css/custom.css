@@ -13,10 +13,7 @@ a:link {
 .container{max-width: 1240px;}
 .bg-light{background-color: #ffffff !important;padding: 1px 0px;}
 .bg-primary{background-color: #4b5ba4 !important;}
-video {
-  width: 100%;
-  height: auto;
-}
+
 
   .top-menu .fa {
     padding: 7px;
@@ -108,7 +105,10 @@ video {
   .momento-360-view .logo-anchor .logo {
     display: none !important;
 }
-
+video {
+  width: 100%;
+  height: auto;
+}
   .pano-image{
       position: relative;
   }
@@ -121,9 +121,9 @@ video {
     top: 0;
     background: rgba(0,0,0,0.1);
   }
-  .pano-image iframe{
+  /* .pano-image iframe{
       height: 570px;
-  }
+  } */
   .banner-text{
     position: absolute;
     top: 50%;
