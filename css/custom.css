@@ -192,10 +192,15 @@ video {
     color:#ffffff;
   }
 
-  .how-it-works p{
+  .how-it-works .content{
       font-size: 25px;
       text-align: justify;
   }
+  .how-it-works p {
+    min-height: 297px;
+    font-size: 20px;
+    font-weight: 400;
+}
 
   .how-it-works{
       position: relative;
@@ -230,14 +235,11 @@ video {
 .how-it-works-title {
     color: #6b86b3;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
     min-height: 46px;
 }
 
-.how-it-works p{
-    font-size: 20px;
-    font-weight: 400;
-}
+
 
 .btn-primary {
     color: #fff;
