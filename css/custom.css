@@ -33,7 +33,7 @@ a:link {
   .nav-link{
       color: #0066b1 !important;
       font-size: 20px;
-      font-weight: 500;
+      font-weight: 600;
       transition: 0.3s;
       padding-left: 1.5rem !important;
   }
@@ -421,6 +421,13 @@ hr{background-color: #fff;}
   .title {
     font-size: 33px;
   }
+  .nav-link{
+    color: #0066b1 !important;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+    padding-left: 1.5rem !important;
+}
 }
 @media (max-width:767px) {
   .d-none-mob{display: none;}
