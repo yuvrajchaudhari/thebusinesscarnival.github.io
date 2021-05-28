@@ -157,7 +157,7 @@ video {
       font-size: 35px;
       font-weight: 700;
       color:#4b5ba4;
-      text-shadow: 2px 4px 4px #c5d7f9;
+      /* text-shadow: 2px 4px 4px #c5d7f9; */
   }
 
   /* About Us Css */
@@ -166,14 +166,14 @@ video {
     font-size: 50px;
     font-weight: 700;
     color:#4b5ba4;
-    text-shadow: 2px 4px 4px #c5d7f9;
+    /* text-shadow: 2px 4px 4px #c5d7f9; */
   }
 
   .bg-grey{
       background-color: #fafcfc;
   }
 .about-content{
-    padding: 47px 0px;
+    padding: 80px 0px;
 }
 .about-content p{
     font-size: 22px;
@@ -183,7 +183,7 @@ video {
         position: relative;
         background-image: url("../images/why-business.jpg"); /* The image used */
         background-color: rgba(255,255,255,0.9); /* Used if the image is unavailable */
-        height: 600px; /* You must set a specified height */
+        height: 524px; /* You must set a specified height */
         background-position: center bottom; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: cover;
@@ -209,7 +209,7 @@ video {
 
   .how-it-works{
       position: relative;
-      padding: 50px 0px;
+      padding: 95px 0px;
   }
 
   .how-it-works::before {
@@ -333,7 +333,6 @@ video {
 /* footer section */
 footer{
   padding:50px 0px 25px;
-  margin-top: 95px;
 }
 #myVideo{
   min-width: 100%; 
