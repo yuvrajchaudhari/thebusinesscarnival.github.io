@@ -411,10 +411,7 @@ hr{background-color: #fff;}
 .video-title {
   font-size: 17px;
 }
-.internal-title {
-  font-size: 26px;
-}
-.why-business-title {
-  font-size: 27px;
+.internal-title,.why-business-title {
+  font-size: 25px;
 }
 }
