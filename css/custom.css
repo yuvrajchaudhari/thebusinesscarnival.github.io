@@ -7,6 +7,9 @@ body{
   font-family: 'Lato', sans-serif;
     /* regular: 400,mediaum:500,semi-bold:600,bold:700 */
 }
+ul{
+  list-style: none;
+}
 a:link {
     text-decoration: none;
   }
@@ -172,7 +175,7 @@ video {
     padding: 47px 0px;
 }
 .about-content p{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .why-business{
@@ -341,7 +344,13 @@ font-weight: 700;
 color:#ffffff;
  margin-bottom: 20px;
 }
-
+footer a{
+  color:#ffffff;
+}
+footer a:hover{
+  color: #53ba7f;
+}
+.footer-list li {padding: 10px 0px;}
 .social-media-icon .fa {
   padding: 11px;
   font-size: 17px;
