@@ -120,6 +120,7 @@ video {
     right: 0;
     top: 0;
     background: rgba(0,0,0,0.1);
+    height: 650px;
   }
   /* .pano-image iframe{
       height: 570px;
