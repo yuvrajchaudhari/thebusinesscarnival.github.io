@@ -248,6 +248,7 @@ flip card
   height: 100%;
   margin: 0;
   display: flex;
+ 
 }
 
 .card-front {
@@ -268,6 +269,7 @@ flip card
   transform: rotateX(0deg);
 }
 .card{z-index: 1;}
+
 
 .how-it-works-title {
     color: #6b86b3;
