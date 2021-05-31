@@ -1002,10 +1002,12 @@ flip card
 }
 /* Industry Association */
 .ind-logo{
-  border: 2px solid red;
-  border-radius: 29px;
+  
+  border-radius: 11px;
   padding: 11px;
   background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);
+  height: 85px;
+  width: 85px;
 }
 .industry-association .media p{
   font-size: 21px;
@@ -1035,12 +1037,14 @@ flip card
   -webkit-text-fill-color: transparent;
   font-weight: 600;
   }
-  .ind-link:hover{background: #FFFFFF;
-    background: -webkit-linear-gradient(to left, #FFFFFF 0%, #FF0000 100%);
-    background: -moz-linear-gradient(to left, #FFFFFF 0%, #FF0000 100%);
-    background: linear-gradient(to left, #FFFFFF 0%, #FF0000 100%);
+  .ind-link:hover{
+    background: #FF0000;
+    background: -webkit-linear-gradient(to left, #FF0000 0%, #000000 100%);
+    background: -moz-linear-gradient(to left, #FF0000 0%, #000000 100%);
+    background: linear-gradient(to left, #FF0000 0%, #000000 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
+    -webkit-text-fill-color: transparent;
+  }
 
 
 /*------------ News Section--------- */
