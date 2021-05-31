@@ -136,7 +136,7 @@ video {
   }
   .title{
       color: #ffffff;
-    font-family: 'Prata', serif;
+   font-family: 'Spectral', serif;
       font-size: 50px;
       white-space: nowrap;
       font-weight: 800;
@@ -153,7 +153,7 @@ video {
   /* video in below banner */
 
   .video-title{
-    font-family: 'Prata', serif;
+   font-family: 'Spectral', serif;
       font-size: 35px;
       font-weight: 700;
       color:#4b5ba4;
@@ -162,7 +162,7 @@ video {
 
   /* About Us Css */
   .internal-title {
-    font-family: 'Prata', serif;
+   font-family: 'Spectral', serif;
     font-size: 50px;
     font-weight: 700;
     color:#4b5ba4;
@@ -191,7 +191,7 @@ video {
 
 /* Why carnival  css */
 .why-business-title {
-    font-family: 'Prata', serif;
+   font-family: 'Spectral', serif;
     font-size: 50px;
     font-weight: 700;
     color:#ffffff;
@@ -393,7 +393,7 @@ hr{background-color: #fff;}
     margin-right: 10px;
 }
 .video-title {
-  font-family: 'Prata', serif;
+ font-family: 'Spectral', serif;
   font-size: 21px;
   }
   .section-pd {
@@ -489,7 +489,7 @@ footer {
 }
   .title {
     color: #ffffff;
-    font-family: 'Prata', serif;
+   font-family: 'Spectral', serif;
     font-size: 16px;
     white-space: nowrap;
 }
