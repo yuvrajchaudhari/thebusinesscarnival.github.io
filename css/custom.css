@@ -1003,22 +1003,26 @@ flip card
 /* Industry Association */
 .ind-logo{
   border: 2px solid red;
-    border-radius: 41px;
-    padding: 8px;
-    background-color: antiquewhite;
+  border-radius: 29px;
+  padding: 11px;
+  background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);
 }
 .industry-association .media p{
   font-size: 21px;
  
 }
 .industry-association p{
-  font-size: 20px;
-  padding-left: 12px;
+  font-size: 18px;
+    padding-left: 12px;
+    text-align: center;
 }
 
 .industry-content{
- 
   font-size: 20px;
+}
+.ind-box{padding: 10px;transition: 0.2s;}
+.ind-box:hover{
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
 }
 
 
