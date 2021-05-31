@@ -412,9 +412,9 @@ hr{background-color: #fff;}
   .why-business {
     height: auto;}
   .how-it-works p {
-    min-height: 241px;
+    min-height: 190px;
     font-size: 16px ;
-}
+  }
 }
 @media (max-width:991px) {
   .title {
@@ -429,6 +429,10 @@ hr{background-color: #fff;}
 }
 }
 @media (max-width:767px) {
+  .industry-association p {
+    font-size: 16px;
+    padding-left: 12px;
+}
   .d-none-mob{display: none;}
   .title {
         font-size: 26px;
@@ -473,6 +477,7 @@ footer {
   }
 }
 @media (max-width:520px) {
+  
   .how-it-works p {
     min-height: auto;
     font-size: 16px;
@@ -507,7 +512,8 @@ footer {
   font-size: 17px;
 }
 .internal-title,.why-business-title {
-  font-size: 25px;
+  font-size: 22px;
+  text-align: center;
 }
 .footer-title {
   font-size: 23px;
