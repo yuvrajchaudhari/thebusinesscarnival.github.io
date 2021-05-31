@@ -137,8 +137,8 @@ video {
   .title{
       color: #ffffff;
    font-family: 'Spectral', serif;
-      font-size: 50px;
-      white-space: nowrap;
+      font-size: 62px;
+     text-align: center;
       font-weight: 800;
   }
 
@@ -477,7 +477,9 @@ footer {
   }
 }
 @media (max-width:520px) {
-  
+  .how-it-works-title {
+    min-height:auto;
+}
   .how-it-works p {
     min-height: auto;
     font-size: 16px;
