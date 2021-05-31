@@ -196,13 +196,13 @@ video {
     font-weight: 700;
     color:#ffffff;
   }
-
+/* -------------------------- How it work-----
+--------------------------------------------- */
   .how-it-works .content{
       font-size: 20px;
       text-align: justify;
   }
   .how-it-works p {
-    min-height: 200px;
     font-size: 18px;
     font-weight: 400;
 }
@@ -235,13 +235,45 @@ video {
         background-size: 25%;
         z-index: 0;
 }
+
+
+/*
+flip card
+*/
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateX(0deg);
+}
+
+.card-back {
+  transform: rotateX(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateX(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateX(0deg);
+}
 .card{z-index: 1;}
 
 .how-it-works-title {
     color: #6b86b3;
     font-size: 21px;
     font-weight: 600;
-    min-height: 46px;
+    min-height: 50px;
 }
 
 
@@ -498,8 +530,7 @@ hr{background-color: #fff;}
     left: -119px;
     text-transform: uppercase;
     line-height: 48px;
-    background: #e10c30;
-    background: linear-gradient(to left, rgb(207, 46, 29) 50%, rgb(26, 23, 23) 50%) right;
+    background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);
     background-size: 200%;
     box-shadow: 0 10px 35px #00000025;
     transform: rotate(-90deg);
