@@ -705,7 +705,7 @@
         document.addEventListener('DOMContentLoaded', () => {
 
             // Unix timestamp (in seconds) to count down to
-            var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 7) + 1;
+            var twoDaysFromNow = (new Date().getTime() / 1000) + (86400 * 27) + 1;
 
             // Set up FlipDown
             var flipdown = new FlipDown(twoDaysFromNow)
@@ -774,16 +774,6 @@
             $('.sidebar-contact').toggleClass('active')
             $('.toggle').toggleClass('active')
         })
-    </script>
-    <script>
-        window.onload = function() {
-            var hidediv = document.getElementsById('upcomingEvent');
-            document.onclick = function (div){
-                if(div.target.id !=='upcomingEvent'){
-                    hidediv.style.display="none";
-                }
-            }
-        }
     </script>
    
 
