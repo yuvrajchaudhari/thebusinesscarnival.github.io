@@ -1560,7 +1560,7 @@ hr{background-color: #fff;}
   background: #1DA1F2;
 }
 .request-demo li:nth-child(1) a{
-  background: #E1306C;
+  background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);
 }
 .request-demo li:nth-child(4) a{
   background: #2867B2;
