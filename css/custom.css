@@ -1716,6 +1716,7 @@ footer {
 @media (max-width:520px) {
   .how-it-works-title {
     min-height:auto;
+    font-size: 16px;
 }
   .how-it-works p {
     min-height: auto;
