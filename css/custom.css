@@ -16,8 +16,17 @@ a:link {
 .container{max-width: 1240px;}
 .bg-light{background-color: #ffffff !important;padding: 1px 0px;}
 .bg-primary{background-color: #4b5ba4 !important;}
-
-
+.top-header-shape{position: relative;}
+.top-header-shape::before{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 0;
+    bottom: 0;
+    border-bottom: 60px solid #fff;
+    border-right: 40px solid transparent;
+    z-index: 1;
+}
   .top-menu .fa {
     padding: 7px;
     font-size: 12px;
@@ -40,6 +49,7 @@ a:link {
   .nav-link:hover{
       color: #53ba7f !important;
   }
+  /* .navbar-brand{margin-top: -30px;} */
   .header-fixed {
     position: fixed;
     top: 0;
@@ -971,7 +981,7 @@ flip card
 
 
 .how-it-works-title {
-    color: #6b86b3;
+    color: 	#800080;
     font-size: 21px;
     font-weight: 600;
     min-height: 50px;
@@ -1001,6 +1011,9 @@ flip card
   padding: 25px 0px;
 }
 /* Industry Association */
+.ind-title{
+  color: #800080;
+}
 .ind-logo{
   
   border-radius: 11px;
@@ -1158,6 +1171,7 @@ hr{background-color: #fff;}
   list-style-type: none;
   padding: 1em;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .counter li span {
@@ -1174,7 +1188,11 @@ hr{background-color: #fff;}
   font-size: 4rem;
   padding: 0 .5rem;
 }
-
+.headline{
+  padding: 8px 8px;
+  color: #ffffff;
+  background: linear-gradient(to right, #fc2994c7, #db29bd);
+}
 .gradient-box {
   display: flex;
   align-items: center;
