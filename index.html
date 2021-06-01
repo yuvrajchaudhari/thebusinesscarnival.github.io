@@ -441,8 +441,8 @@
                     </div>
                 </div>
             </div>
-            <hr style="border: 2px solid purple;">
-            <div class="row mt-5">
+            <hr style="border: 2px solid purple;" class="d-none d-block-xl">
+            <div class="row mt-xl-5">
                 <div class="col-lg-4 mb-xl-5 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
                     <div class="ind-box">
                         <div class="text-center module">
@@ -663,7 +663,7 @@
         </div>
     </footer>
     <!-- Counter Section -->
-    <div class="sidebar-contact shadow">
+    <div class="sidebar-contact shadow" id="upcomingEvent">
         <div class="toggle">Up-coming-Event</div>
         <h5 class="text-center"><b>Upcoming Event</b> </h5>
         <div class="scroll">
@@ -682,11 +682,13 @@
 
     </div>
     <!-- End Counter Section -->
-
+    <a href="#" class="d-block d-md-none btn orangeBtn get-in-touch-mobile">Up Coming Events</a>
+    <a href="#" class="d-block d-md-none btn orangeBtn request-demo-mobile">Request a Demo</a>
+   
+   
     <!-- side bar demo -->
     <div class="request-demo">
         <ul>
-
             <li><a href="#"><i class="fa fa-television" aria-hidden="true"></i><span>Request A Demo</span></a></li>
             <!-- <li><a href="#"><i class="fa fa-linkedin-in"></i><span>Linkedin</span></a></li>
            <li><a href="#"><i class="fa fa-github"></i><span>Github</span></a></li>
@@ -757,41 +759,7 @@
             }
         });
     </script>
-    <script>
-        (function () {
-            const second = 1000,
-                minute = second * 60,
-                hour = minute * 60,
-                day = hour * 24;
-
-            let event = "june 28, 2021 00:00:00",
-                countDown = new Date(event).getTime(),
-                x = setInterval(function () {
-
-                    let now = new Date().getTime(),
-                        distance = countDown - now;
-
-                    document.getElementById("days").innerText = Math.floor(distance / (day)),
-                        document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-                        document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
-                        document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
-
-                    //do something later when date is reached
-                    if (distance < 0) {
-                        let headline = document.getElementById("headline"),
-                            countdown = document.getElementById("countdown"),
-                            content = document.getElementById("content");
-
-                        headline.innerText = "Coming Soon event!";
-                        countdown.style.display = "none";
-                        content.style.display = "block";
-
-                        clearInterval(x);
-                    }
-                    //seconds
-                }, 0)
-        }());
-    </script>
+   
     <!-- Pilot Button -->
     <script type="text/javascript">
         $(document).ready(function () {
@@ -808,27 +776,16 @@
         })
     </script>
     <script>
-        var carousel = document.querySelector('.carousel');
-        var cellCount = 9;
-        var selectedIndex = 0;
-
-        function rotateCarousel() {
-            var angle = selectedIndex / cellCount * -360;
-            carousel.style.transform = 'translateZ(-288px) rotateY(' + angle + 'deg)';
+        window.onload = function() {
+            var hidediv = document.getElementsById('upcomingEvent');
+            document.onclick = function (div){
+                if(div.target.id !=='upcomingEvent'){
+                    hidediv.style.display="none";
+                }
+            }
         }
-
-        var prevButton = document.querySelector('.previous-button');
-        prevButton.addEventListener('click', function () {
-            selectedIndex--;
-            rotateCarousel();
-        });
-
-        var nextButton = document.querySelector('.next-button');
-        nextButton.addEventListener('click', function () {
-            selectedIndex++;
-            rotateCarousel();
-        });
     </script>
+   
 
     <!-- <script src="js/three.min.js"></script>
     <script src="js/panolens.min.js"></script>
