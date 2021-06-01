@@ -1240,15 +1240,120 @@ hr{background-color: #fff;}
   }
 }
 
+/* ----------------------Flipcountdown js */
+.example {
+  font-family: 'Roboto', sans-serif;
+  /* width: 550px;
+  height: 378px; */
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
 
+.example .flipdown {
+  margin: auto;
+}
+
+.example h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.example p {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.example .buttons {
+  width: 100%;
+  height: 50px;
+  margin: 50px auto 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.example .buttons p {
+  height: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  padding: 0px 25px 0px 0px;
+  color: #333;
+  margin: 0px;
+}
+
+.example .button {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  line-height: 46px;
+  text-decoration: none;
+  color: #333;
+  padding: 0px 20px;
+  border: solid 2px #333;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+}
+
+.example .button:hover {
+  background-color: #333;
+  color: #FFF;
+}
+
+.example .button i {
+  margin-right: 5px;
+}
+
+@media(max-width: 550px) {
+  .example {
+    width: 100%;
+    height: 362px;
+  }
+
+  .example h1 {
+    font-size: 2.5em;
+  }
+
+  .example p {
+    margin-bottom: 25px;
+  }
+
+  .example .buttons {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+    display: block;
+  }
+
+  .example .buttons p,
+  .example .buttons a {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .example .buttons p {
+    padding-right: 0px;
+  }
+
+  .example .buttons a {
+    display: inline-block;
+  }
+}
 
 /*------------------------------- Pilot button Csss----------------------- */
 .sidebar-contact{
   position:fixed;
   top:50%;
-  right:-450px;
+  right:-585px;
   transform:translateY(-50%);
-  width:450px;
+  width:585px;
   height:auto;
   padding:15px;
   background:#fff;
@@ -1297,7 +1402,7 @@ hr{background-color: #fff;}
     padding: 0px 20px;
     text-align: center;
     cursor: pointer;
-    top: 45%;
+    top: 35%;
     left: -119px;
     text-transform: uppercase;
     line-height: 48px;
@@ -1318,6 +1423,8 @@ hr{background-color: #fff;}
   background-color: #c8e7ee;
 }
   
+
+
 /*.toggle:before{
   content:'\f003';
   font-family:fontAwesome;
@@ -1421,8 +1528,71 @@ hr{background-color: #fff;}
    }
 /*-------------------------------End Pilot button Csss----------------------- */
 
-
-
+/* ---------------------request a demo sidebar------------------*/
+.request-demo{
+  position: fixed;
+  right: 0;
+  top:40%;
+  width: 70px;
+  margin-top: 150px;
+  transition: all 0.3s linear;
+  /* box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4); */
+}
+.request-demo li{
+  height: 60px;
+  position:relative;
+  right: -16px;
+}
+.request-demo li a{
+  color: white;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 60px;
+  padding-left:25%;
+  /* border-bottom: 1px solid rgba(0,0,0,.4); */
+  transition: all 0.1s linear;
+}
+.request-demo li:nth-child(3) a{
+  background: #4267B2;
+}
+.request-demo li:nth-child(2) a{
+  background: #1DA1F2;
+}
+.request-demo li:nth-child(1) a{
+  background: #E1306C;
+}
+.request-demo li:nth-child(4) a{
+  background: #2867B2;
+}
+.request-demo li:nth-child(5) a{
+  background: #333;
+}
+.request-demo li:nth-child(6) a{
+  background: #ff0000;
+}
+.request-demo li a i{
+  position:absolute;
+  top: 17px;
+  left: 15px;
+  font-size: 27px;
+}
+.request-demo ul li a span{
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* text-transform: uppercase; */
+}
+.request-demo:hover {
+  z-index:1;
+  width: 270px;
+  /* border-bottom: 1px solid rgba(0,0,0,.5);
+  box-shadow: 0 0 1px 1px rgba(0,0,0,.3); */
+}
+.request-demo ul li:hover a span{
+  padding-right: 30%;
+  display: block;
+}
 
 
 
