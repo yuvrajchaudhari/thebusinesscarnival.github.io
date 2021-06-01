@@ -1456,6 +1456,7 @@ hr{background-color: #fff;}
       /* padding-bottom: 50px; */
       z-index:1;
   }
+  .about-us{height: auto;}
 }
 @media(max-width:768px)
 {
@@ -1753,7 +1754,7 @@ footer {
 }
   
   .about-content {
-    padding: 25px 0px;
+    padding: 25px 0 0px;
 }
   .title {
     color: #ffffff;
