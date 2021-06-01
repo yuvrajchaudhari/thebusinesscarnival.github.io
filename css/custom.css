@@ -1359,9 +1359,13 @@ hr{background-color: #fff;}
   background:#fff;
   z-index: 999;
   box-sizing:border-box;
-  transition:0.5s;
+  transition:1s;
 }
+/* for on click------use this---and remove below(.sidebar-contact:hover)
 .sidebar-contact.active{
+  right:0;
+} */
+.sidebar-contact:hover{
   right:0;
 }
 .sidebar-contact .form-group{display: initial;}
@@ -1470,26 +1474,25 @@ hr{background-color: #fff;}
     overflow-y:auto;
   }
   .content{
-    padding:50px 50px;
+    padding: 0px 15px;
   }
   .orangeBtn.get-in-touch-mobile {
       display: block!important;
       position: fixed;
       bottom: 0;
-      width: 100%;
+      width: 50%;
       border-radius: 0;
       z-index: 999;
   }
   .orangeBtn {
-      font-size: 15px;
+      font-size: 13px;
       color: #fff;
       font-weight: 600;
       text-transform: uppercase;
       border-radius: 7px;
-      padding: 12px 40px;
+      padding: 12px;
       border: 1px solid #FFF;
-      background: #e10c30;
-    background: linear-gradient(to left, rgb(207, 46, 29) 50%, rgb(26, 23, 23) 50%) right;
+      background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);
     background-size: 200%;box-shadow: 0 10px 35px #00000025;
       transition: all .5s;
       -webkit-transition: all .5s;
@@ -1497,10 +1500,20 @@ hr{background-color: #fff;}
   .orangeBtn:hover {
       background-color: rgb(248, 175, 3);
   }
+  .request-demo-mobile {
+    display: block!important;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    border-radius: 0;
+    z-index: 999;
+}
   .bottom-footer {
       padding-bottom: 15px;
       margin-bottom: 45px;
   }
+  .request-demo{display: none;}
 }
 
 
@@ -1538,6 +1551,7 @@ hr{background-color: #fff;}
   transition: all 0.1s linear;
   /* box-shadow: 2px 2px 8px 0px rgba(0,0,0,.4); */
 }
+.request-demo ul{margin-bottom: 0px;}
 .request-demo li{
   height: 60px;
   position:relative;
@@ -1598,6 +1612,12 @@ hr{background-color: #fff;}
 
 /*-----------------------------------------Responsive---------------------------------*/
 @media (max-width:1024px) {
+  .navbar-brand {
+    margin-top: 0px;
+}
+.navbar-brand img{
+  width: 198px;
+}
   .btn-grad {
     margin: auto;
     padding: 4px 10px;
