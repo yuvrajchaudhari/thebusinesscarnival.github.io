@@ -13,6 +13,9 @@ ul{
 a:link {
     text-decoration: none;
   }
+  p{
+    font-size: 18px;
+  }
 .container{max-width: 1240px;}
 .bg-light{background-color: #ffffff !important;padding: 1px 0px;}
 .bg-primary{background-color: #4b5ba4 !important;}
@@ -1027,7 +1030,7 @@ flip card
   padding: 11px;
   background-image: linear-gradient(to right, #f50990 0%, #aa5297 51%, #FF512F 100%);
   height: 85px;
-  width: 85px;
+  width: 85px !important;
 }
 .industry-association .media p{
   font-size: 21px;
@@ -1146,11 +1149,152 @@ footer a:hover{
   font-size: 20px;
   font-weight: 400;
 }
-hr{background-color: #fff;}
 
 
+/* ----------------------------About Us page 
+-----------------------------------------*/
+.connect-us{
+  position: relative;
+  background:linear-gradient( rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4)100%),url("../images/virtual-reality.webp");
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.connect-us h2{
+  font-size: 48px;
+  font-weight: 600;
+    color: white;
+    text-shadow: 1px 4px black;
+}
+.connect-us p {
+  font-size: 27px;
+  font-weight: 400;
+  color: #ffffff;
+}
 
 
+/* about us slider  */
+.teams{
+  padding: 90px 0px 50px;
+}
+.teams .ind-box {
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  border-radius: 25px;
+  padding: 20px;
+  background: #fff;
+  }
+  
+  #customers-teams .item {
+    height: 320px;
+      text-align: center;
+      opacity: .2;
+      -webkit-transform: scale3d(0.8, 0.8, 1);
+      transform: scale3d(0.8, 0.8, 1);
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+  }
+#customers-teams .item p{
+font-size:18px;
+}
+#customers-teams .item h2{
+font-size:28px !important;
+font-weight:500 !important;
+}
+#customers-teams .item .title{
+font-size:14px;
+}
+#pastexp{
+margin-top:20px;
+}
+#customers-teams .item h5{
+font-size:15px !important;
+font-weight:700 !important;
+}
+  #customers-teams .owl-item.active.center .item {
+      opacity: 1;
+      -webkit-transform: scale3d(1.0, 1.0, 1);
+      transform: scale3d(1.0, 1.0, 1);
+  }
+  .teams .owl-carousel .owl-item .img-circle {
+      transform-style: preserve-3d;
+      max-width: 170px;
+      margin: 0 auto 17px;
+      transition: transform .5s;
+  }
+.teams .owl-carousel .owl-item .img-circle:hover {
+      transform: scale(0.9);
+  }
+  #customers-teams.owl-carousel .owl-dots .owl-dot.active span,
+#customers-teams.owl-carousel .owl-dots .owl-dot:hover span {
+      background: rgba(215,67,77,0.8);
+      transform: translate3d(0px, -50%, 0px) scale(0.7);
+  }
+#customers-teams.owl-carousel .owl-dots{
+display: inline-block;
+width: 100%;
+text-align: center;
+}
+#customers-teams.owl-carousel .owl-dots .owl-dot{
+display: inline-block;
+}
+  #customers-teams.owl-carousel .owl-dots .owl-dot span {
+      background: rgba(215,67,77,0.8);
+      display: inline-block;
+      height: 20px;
+      margin: 0 2px 5px;
+      margin-top:50px;
+      transform: translate3d(0px, -50%, 0px) scale(0.3);
+      transform-origin: 50% 50% 0;
+      transition: all 250ms ease-out 0s;
+      width: 20px;
+      outline: none;
+      border-radius:50% !important;
+  }
+.owl-dot, .owl-dot:active, .owl-dot:focus { 
+outline: 0 !important;
+}
+
+@media only screen and (max-width: 1000px){
+#customers-teams.owl-carousel .owl-dots .owl-dot span {
+height:20px;
+width:20px;
+margin-top:30px;
+}
+}
+
+
+#teamsocial {
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ margin:10px auto;
+ margin-top:20px;
+
+}
+#teamsocial #socialicon {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ position: relative;
+ width:40px;
+ height: 40px;
+ margin: 0 0.5rem;
+ border-radius: 50%;
+ cursor: pointer;
+ font-size: 1.5rem;
+ text-decoration: none;
+ transition: all 0.3s ease;
+
+}
+#teamsocial #socialicon:hover {
+ font-size: 2rem;
+ width:50px;
+ height: 50px;
+}
 
 
 
@@ -1457,6 +1601,10 @@ hr{background-color: #fff;}
       z-index:1;
   }
   .about-us{height: auto;}
+  .connect-us h2 {
+    font-size: 22px;}
+    .connect-us p {
+      font-size: 21px;}
 }
 @media(max-width:768px)
 {
@@ -1616,7 +1764,29 @@ hr{background-color: #fff;}
   display: block;
 }
 
+#internal-banner .fill {
+	background-size: cover;
+	min-height: 450px;
+}
 
+#internal-banner .carousel-caption h1 {
+	font-size: 52px;
+	font-weight: 600;
+	display: inline-block;
+	padding-bottom: 15px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #f50990;
+}
+
+#internal-banner .carousel-caption h3 {
+	font-size: 36px;
+	font-weight: 300;
+	line-height: 45px;
+}
+
+#internal-banner .carousel-caption {
+	bottom: 89px;
+}
 
 /*-----------------------------------------Responsive---------------------------------*/
 @media (max-width:1024px) {
