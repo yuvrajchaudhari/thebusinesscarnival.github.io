@@ -2016,7 +2016,21 @@ footer {
 #internal-banner .carousel-caption {
   bottom: 5px;
 }
-
+.how-it-works-title-internal {
+  font-size: 21px;
+}
+.virtual-lobby {
+ margin-bottom: 20px;
+}
+.virtual-lobby-discription {
+  line-height: 28px;
+  font-size: 16px;
+}
+.customize-booth p {
+  line-height: 33px;
+  padding: 4px 15px;
+  font-size: 16px;
+}
 }
 @media (max-width:520px) {
   .how-it-works-title {
