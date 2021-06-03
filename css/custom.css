@@ -1766,7 +1766,7 @@ margin-top:30px;
 
 #internal-banner .fill {
 	background-size: cover;
-	min-height: 450px;
+	min-height: 356px;
 }
 
 #internal-banner .carousel-caption h1 {
@@ -1785,7 +1785,7 @@ margin-top:30px;
 }
 
 #internal-banner .carousel-caption {
-	bottom: 89px;
+	bottom: 60px;
 }
 
 /*-----------------------------------------Responsive---------------------------------*/
@@ -1893,9 +1893,7 @@ margin-top:30px;
 .cta {
   height: auto;}
 
-  .how-it-works {
-    padding: 10px 0px;
-}
+ 
 .news-title {
   font-size: 20px;}
   .news-section p {
@@ -1914,15 +1912,18 @@ footer {
 /* About us page */
 #internal-banner .fill {
   background-size: cover;
-  min-height: 334px;
+  min-height: 135px;
 }
 #internal-banner .carousel-caption h1 {
-  font-size: 34px;}
+  font-size: 34px;margin-bottom: 11px;}
 #internal-banner .carousel-caption h3 {
+  display: none;
   font-size: 16px;
   line-height: 31px;
 }
-
+#internal-banner .carousel-caption {
+  bottom: 5px;
+}
 
 }
 @media (max-width:520px) {
