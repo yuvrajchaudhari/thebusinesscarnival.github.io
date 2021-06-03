@@ -1864,7 +1864,14 @@ left: 0;
     padding: 20px 68px;
 }
 
-
+.form-bg{
+  background-color: #f0efef;
+    padding: 29px;
+    border-radius: 9px;
+}
+.form-control {
+   padding: 1.3rem .75rem;
+}
 
 
 
