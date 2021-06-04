@@ -1375,7 +1375,6 @@ margin-top:30px;
   background: linear-gradient(to right, red, orange);
 }
 
-
 @media all and (max-width: 768px) {
   .counter h1 {
     font-size: 1.5rem;
@@ -1502,9 +1501,9 @@ margin-top:30px;
 .sidebar-contact{
   position:fixed;
   top:50%;
-  right:-585px;
+  right:-655px;
   transform:translateY(-50%);
-  width:585px;
+  width:655px;
   height:auto;
   padding:15px;
   background:#fff;
@@ -1873,9 +1872,16 @@ left: 0;
    padding: 1.3rem .75rem;
 }
 
-
-
-
+.text-tradeshow,.text-Education-fair,.text-virtual-product{
+  display:none;
+  }
+  .mb-8{margin-bottom: 8rem;}
+  .mt-8{margin-top: 8rem;}
+.ind-asso-title{font-size: 30px;font-weight: 700;color: #800080;}
+.ind-box-img{
+  border-radius: 20px;
+    padding: 10px;
+}
 
 
 
@@ -1934,8 +1940,19 @@ left: 0;
     transition: 0.3s;
     padding-left: 1.5rem !important;
 }
+.mb-8{margin-bottom: 0rem;}
+.mt-8 {
+  margin-top: 0rem;
+}
 }
 @media (max-width:767px) {
+  p {
+    font-size: 16px;
+}
+.mb-8{margin-bottom: 0rem;}
+.mt-8 {
+  margin-top: 0rem;
+}
   .animated {
 		/*CSS transitions*/
 		-o-transition-property: none !important;
@@ -2031,6 +2048,13 @@ footer {
   padding: 4px 15px;
   font-size: 16px;
 }
+
+.ind-asso-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #800080;
+}
+
 }
 @media (max-width:520px) {
   .how-it-works-title {

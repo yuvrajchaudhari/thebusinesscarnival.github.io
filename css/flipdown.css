@@ -70,7 +70,7 @@
   
   .flipdown {
     overflow: visible;
-    width: 510px;
+    width: auto;
     height: 110px;
   }
   
