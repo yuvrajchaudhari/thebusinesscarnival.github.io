@@ -1987,6 +1987,14 @@ left: 0;
   .about-content p {
     font-size: 16px;
 }
+.adv-list li {
+  position: relative;
+  padding-left: 25px;
+  line-height: 27px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
   .section-pd {
     padding: 35px 0px;
 }
@@ -2034,7 +2042,7 @@ footer {
   bottom: 5px;
 }
 .how-it-works-title-internal {
-  font-size: 21px;
+  font-size: 18px;
 }
 .virtual-lobby {
  margin-bottom: 20px;
