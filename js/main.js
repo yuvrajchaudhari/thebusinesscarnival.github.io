@@ -1,8 +1,21 @@
-const panoImage = document.querySelector('.pano-image');
-        const miamiPano = '../images/street.jpeg';
+document.addEventListener('DOMContentLoaded', () => {
 
-        const panorama = new PANOLENS.ImagePanorama(miamiPano);
-        const viewer = new PANOLENS.Viewer({
-            container: panoImage
+    // Unix timestamp (in seconds) to count down to
+    var twoDaysFromNow = (new Date("Jun 4, 2021 15:37:25").getTime() / 1000) + (86400 * 118) + 1;
+
+    // Set up FlipDown
+    var flipdown = new FlipDown(twoDaysFromNow)
+
+        // Start the countdown
+        .start()
+
+        // Do something when the countdown ends
+        .ifEnded(() => {
+            console.log('The countdown has ended!');
         });
-        viewer.add(panorama);
+
+
+
+    var ver = document.getElementById('ver');
+    ver.innerHTML = flipdown.version;
+});
