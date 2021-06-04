@@ -1769,7 +1769,7 @@ margin-top:30px;
 }
 
 #internal-banner .carousel-caption h1 {
-	font-size: 52px;
+	font-size: 40px;
 	font-weight: 600;
 	display: inline-block;
 	padding-bottom: 15px;
@@ -1881,7 +1881,9 @@ left: 0;
 .ind-box-img{
   border-radius: 20px;
     padding: 10px;
+    transition: 0.3s;
 }
+.ind-box-img:hover{box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;}
 
 
 
