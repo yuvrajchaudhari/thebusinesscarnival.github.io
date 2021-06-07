@@ -2077,7 +2077,11 @@ footer {
   font-weight: 700;
   color: #800080;
 }
-
+.ind-box {
+  /* padding: 14px; */
+  transition: 0.2s;
+  padding: 20px 0px;
+}
 }
 @media (max-width:520px) {
   .how-it-works-title {
