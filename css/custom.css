@@ -1118,10 +1118,10 @@ footer{
   min-height: 100vh;
 }
 .footer-title{
-font-size: 27px;
-font-weight: 700;
-color:#ffffff;
- margin-bottom: 20px;
+    font-size: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 9px;
 }
 footer a{
   color:#ffffff;
