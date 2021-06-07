@@ -3,6 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Lato', sans-serif;
     /* regular: 400,mediaum:500,semi-bold:600,bold:700 */
